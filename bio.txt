@@ -1,0 +1,62 @@
+Dr Anne-Marie Imafidon MBE
+
+Pioneer for women in STEM
+
+Early years
+
+At age 11 became the youngest person ever to receive A Level in computer science.
+At age 20 she recived a masters degree from Oxford
+
+
+Stemettes
+
+Reaches 1000's of young women through workshops and mentoring
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// scroll 
+<script>
+   document.querySelector('.scroll-arrow').addEventListener('click', function() {
+    window.scrollBy({ top: window.innerHeight, behavior: 'smooth' });
+});
+
+</script>
+
+.scroll-arrow {
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #8B6B7E;
+    background: #F5E9E2;
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: 2px solid #8B6B7E;
+}
+
+<div class="scroll-arrow">Scroll down</div>
